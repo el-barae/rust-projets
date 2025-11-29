@@ -3,7 +3,7 @@ use serde::Serialize;
 
 #[get("/")]
 async fn root() -> impl Responder {
-    "OK"
+    "Hello from Actix"
 }
 
 #[derive(Serialize)]

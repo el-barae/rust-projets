@@ -3,7 +3,7 @@ use serde::Serialize;
 use tokio::net::TcpListener;
 
 async fn root() -> &'static str {
-    "OK"
+    "Hello from Axum"
 }
 
 #[derive(Serialize)]
